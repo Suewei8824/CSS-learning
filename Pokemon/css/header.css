@@ -1,0 +1,44 @@
+.contain-box {
+
+    
+}
+.header {
+    background: #f5f5f5;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+}
+.toolbar {
+    background: #ffffff;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+}
+.header-logo{
+
+    font-size: 0;
+}
+.header-logo > li {
+    display: inline-block;
+    border: 1px solid #ddd;
+    padding: 4px 8px;
+    font-size: 14px;
+}
+.header-logo > li >img {
+    height: 50px;
+    
+}
+.toolbar-logo {
+    font-size: 0;
+}
+.toolbar-logo > li {
+    font-size: 14px;
+    display: table-cell;
+    background: #313131;
+    color: #ffffff;
+    width: 127px;
+    text-align: center;
+    height: 95px;
+    vertical-align: middle;
+    border-right: 1px solid #222;
+}
